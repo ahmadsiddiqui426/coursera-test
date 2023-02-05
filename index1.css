@@ -1,0 +1,29 @@
+
+      /* default styles for all screen sizes */
+      .section {
+        width: 33.33%;
+        padding: 20px;
+        box-sizing: border-box;
+        float: left;
+      }
+      
+      h1 {
+        text-align: center;
+        margin: 40px 0;
+      }
+      
+      /* styles for tablet screens (768px - 991px) */
+      @media (min-width: 768px) and (max-width: 991px) {
+        .section {
+          width: 50%;
+        }
+      }
+      
+      /* styles for mobile screens (768px and below) */
+      @media (max-width: 767px) {
+        .section {
+          width: 100%;
+          float: none;
+        }
+      }
+    
